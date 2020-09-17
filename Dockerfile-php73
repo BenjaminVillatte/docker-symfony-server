@@ -25,11 +25,8 @@ RUN apt-get update \
         libmcrypt-dev \
         libicu-dev \
         libzip-dev \
-        sqlite3 \
-        libsqlite3-dev \
         zip \
-        unzip \
-        libmagickwand-dev
+        unzip
 
 RUN echo "en_US.UTF-8 UTF-8" > /etc/locale.gen && \
     echo "fr_FR.UTF-8 UTF-8" >> /etc/locale.gen && \
